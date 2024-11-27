@@ -1,0 +1,43 @@
+Program: 4 Home Ministry of Bharat want to calculate the count illiterate men and women, 
+Bharat population for year 2024 is 1,441,981,744. Out of them 48.4% are women. 
+Total literacy rate is 85.95%. Literacy rate of male population is 80.95% and 
+62.84% for female population. Write a program to get desired output for Home 
+Ministry. 
+Code:  
+   //Practical 4: Calculate The Count Illiterate Men And Women Using Given Data. 
+ 
+ 
+#include<stdio.h> 
+void main() 
+{ 
+ 
+ 
+    printf("Total Population Of India In 2024= 1,441,981,744\n\n"); 
+ 
+    //Given Data 
+ 
+    int int_population=(1,441,981,744); 
+    int ind_women=(1441981744*0.484); 
+    int ind_men=(0.6284*1441981744); 
+    int literacy_women=(0.8595*697919164); 
+    int literacy_men=(0.8095*906141327); 
+ 
+ 
+  //Print Women's Population Of India 
+ 
+    printf("Total Women's Population In India:%d\n",ind_women); 
+      //Print Literacy rate For Women 
+ 
+    printf("Literacy Rate Of Women:%d\n\n",literacy_women); 
+ 
+ 
+ 
+   // Print Men's Population Of India 
+ 
+    printf("Total Men's Population In India:%d\n",ind_men); 
+ 
+   ////Print Men's Population Of India 
+ 
+    printf("Literacy Rate Of Men:%d\n\n\n",literacy_men);
+   printf("24CE032_TARANG\n\n");
+}
